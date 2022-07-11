@@ -1,0 +1,8 @@
+.form__set {
+  margin: 0;
+  padding: 0;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.3s;
+}

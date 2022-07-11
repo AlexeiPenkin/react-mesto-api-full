@@ -1,0 +1,20 @@
+.login_link {
+  width: 358px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.login_link:hover {
+  opacity: 0.6;
+}
+
+@media (max-width: 617px) {
+  .login_link {
+    width: 260px;
+    margin-top: 20px;
+  }
+}

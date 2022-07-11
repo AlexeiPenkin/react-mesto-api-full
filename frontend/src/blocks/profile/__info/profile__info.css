@@ -1,0 +1,25 @@
+.profile__info {
+  display: grid;
+  grid-template-columns: 312px 24px;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+  "h1 button"
+   "h2 .";
+  row-gap: 0;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (min-width: 618px) and (max-width: 900px) {
+  .profile__info {
+      grid-template-columns: 263px 19px;
+      justify-content: flex-start;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 617px) {
+  .profile__info {
+      grid-template-columns: auto 18px;
+      margin-left: 46px;
+      margin-right: 19px;
+  }
+}

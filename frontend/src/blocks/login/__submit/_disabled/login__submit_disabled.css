@@ -1,0 +1,10 @@
+.login__submit_disabled {
+	background: #fff;
+	color: #000000;
+	opacity: 0.2;
+	cursor: default;
+}
+
+.login__submit_disabled:hover {
+	background: #fff;
+}

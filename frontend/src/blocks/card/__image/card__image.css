@@ -1,0 +1,20 @@
+.card__image {
+  max-width: 282px;
+  min-height: 282px;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+  border-radius: 10px 10px 0px 0px;
+  cursor: pointer;
+}
+
+/* .card__image::after {
+  background: #000;
+  opacity: 0.3;
+  z-index: -1;
+  transition: 0.5s linear;
+} */
+
+.card__image:hover {
+  filter: brightness(0.5);
+}

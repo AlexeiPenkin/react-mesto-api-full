@@ -1,0 +1,9 @@
+.header__bar-small {
+	display: none;
+}
+
+@media (max-width: 767px) {
+	.header__bar-small {
+		display: block;
+	}
+}

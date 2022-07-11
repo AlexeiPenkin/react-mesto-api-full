@@ -1,0 +1,10 @@
+.form__field {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__fiel.form__field_type-named {
+  margin-top: 0;
+}

@@ -1,0 +1,13 @@
+.header__menu {
+	display: none;
+	width: 24px;
+	height: 24px;
+	overflow: hidden;
+	margin-right: 27px;
+}
+
+@media (max-width: 767px) {
+	.header__menu {
+		display: block;
+	}
+}

@@ -1,0 +1,11 @@
+.popup-image__image {
+    width: auto;
+    height: auto;
+    max-width: 75vw;
+    max-height: 75vh;
+    margin: 0 auto;
+    filter: brightness(1) contrast(1) saturate(1.5);
+    border-style: solid;
+    border-width: 2px;
+    border-color:#eeeeee;
+}
