@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken');
 const FORBIDDEN_ERROR = require('../errors/forbidden-error');
 
-const MAGIC_KEY = 'magic-key';
+const { JWT_SECRET } = process.env;
 
 module.exports = (req, res, next) => {
   const { authorization } = req.headers;
@@ -15,7 +15,7 @@ module.exports = (req, res, next) => {
   let payload;
 
   try {
-    payload = jwt.verify(token, MAGIC_KEY);
+    payload = jwt.verify(token, JWT_SECRET);
   } catch (err) {
     throw new FORBIDDEN_ERROR({ message: 'Необходима авторизация' });
   }
